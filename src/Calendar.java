@@ -87,7 +87,7 @@ public class Calendar {
 
         //математика
         scheduleLessonsList.add(oneTime3Days(nameMatematika,greenBlueWeek,les2Start,les2Finish,restLessons,3,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameMatematika,greenBlueWeek,les2Start,les2Finish,restLessons,2,4,5));
+        scheduleLessonsList.add(oneTime3Days(nameMatematika,greenBlueWeek,les2Start,les2Finish,restLessons,2,4,0));
         scheduleLessonsList.add(oneTime3Days(nameMatematika,greenBlueWeek,les1Start,les1Finish,restLessons,5,0,0));
 
         scheduleLessonsList.add(oneTime3Days(nameMatematika,yellowRedWeek,les2Start,les2Finish,restLessons,1,2,3));
