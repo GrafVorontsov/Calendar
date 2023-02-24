@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a8fe538-75ea-4726-a2a9-517eb78b97b6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4a8fe538-75ea-4726-a2a9-517eb78b97b6" name="Changes" comment="q">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calendar.java" afterDir="false" />
     </list>
@@ -64,8 +63,22 @@
       <option name="presentableId" value="Default" />
       <updated>1673002627487</updated>
       <workItem from="1673002629328" duration="1840000" />
-      <workItem from="1673021263705" duration="462000" />
+      <workItem from="1673021263705" duration="851000" />
+      <workItem from="1673784767310" duration="607000" />
+      <workItem from="1675078860761" duration="813000" />
+      <workItem from="1675109691564" duration="1747000" />
+      <workItem from="1675198023775" duration="1008000" />
+      <workItem from="1677243305279" duration="615000" />
+      <workItem from="1677270244094" duration="3421000" />
     </task>
+    <task id="LOCAL-00001" summary="q">
+      <created>1673021900845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673021900845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +94,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="q" />
+    <option name="LAST_COMMIT_MESSAGE" value="q" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

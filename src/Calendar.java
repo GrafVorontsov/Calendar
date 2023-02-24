@@ -17,8 +17,8 @@ public class Calendar {
                 "Код доступа: JREb6H" + System.lineSeparator() +
                 "Ссылка: https://us04web.zoom.us/j/4590345208?pwd=NktlMklsVG91SlVuS2U0MVpudTlmZz09\"";
         String english2 = "\"Идентификатор: 851 555 5808" + System.lineSeparator() +
-                "Код доступа: 9TY6WF" + System.lineSeparator() +
-                "Ссылка: https://us04web.zoom.us/j/8515555808?pwd=vSKedEnpliXmdPIp5CmFP2xaSkLppQ.1\"";
+                "Код доступа: 5byWJD" + System.lineSeparator() +
+                "Ссылка: https://us04web.zoom.us/j/8515555808?pwd=otiuojpn2DQahElXxjgoMRS2Hs3vDB.1\"";
         String informatika = "\"Идентификатор: 716 6067 5364" + System.lineSeparator() +
                 "Код доступа: Tv35UM" + System.lineSeparator() +
                 "Ссылка: https://us04web.zoom.us/j/71660675364?pwd=42GXT37QbQVQ4WN1xmWDljDy10bJbJ.1\"";
@@ -30,7 +30,7 @@ public class Calendar {
         String nameLiteratura = "Літературне читання";
         String nameJDC = "ЯДС";
         String nameEnglish1 = "English 1гр.";
-        String nameEnglish2 = "English 2гр.";
+        String nameEnglish2 = "English";
         String nameInformatika = "Iнформатика";
         String nameFizra = "Фiз-ра";
 
@@ -52,76 +52,67 @@ public class Calendar {
 
         //расписание звонков
         String les1Start = "9:15:00";
-        String les1Finish = "9:45:00";
+        String les1Finish = "10:00:00";
 
-        String les2Start = "9:55:00";
-        String les2Finish = "10:25:00";
+        String les2Start = "10:10:00";
+        String les2Finish = "10:55:00";
 
-        String les3Start = "10:35:00";
-        String les3Finish = "11:05:00";
+        String les3Start = "11:00:00";
+        String les3Finish = "11:45:00";
 
-        String les4Start = "11:25:00";
-        String les4Finish = "11:55:00";
+        String les4Start = "12:00:00";
+        String les4Finish = "12:45:00";
 
-        String les5Start = "12:05:00";
-        String les5Finish = "12:35:00";
+        String les5Start = "13:00:00";
+        String les5Finish = "13:45:00";
 
         ArrayList<String> scheduleLessonsList = new ArrayList<>();
 
         //Українська мова
-        scheduleLessonsList.add(oneTime3Days(nameUkrMova,greenBlueWeek,les1Start,les1Finish,restLessons,1,5,0));
-        scheduleLessonsList.add(oneTime3Days(nameUkrMova,greenBlueWeek,les2Start,les2Finish,restLessons,1,5,0));
-        scheduleLessonsList.add(oneTime3Days(nameUkrMova,greenBlueWeek,"16:00:00","16:30:00",restLessons,1,5,0));
-        scheduleLessonsList.add(oneTime3Days(nameUkrMova,greenBlueWeek,"16:40:00","17:10:00",restLessons,1,5,0));
+        scheduleLessonsList.add(oneTime3Days(nameUkrMova,greenBlueWeek,les1Start,les1Finish,restLessons,1,4,0));
+        scheduleLessonsList.add(oneTime3Days(nameUkrMova,greenBlueWeek,les3Start,les3Finish,restLessons,2,0,0));
 
         scheduleLessonsList.add(oneTime3Days(nameUkrMova,yellowRedWeek,les1Start,les1Finish,restLessons,1,4,0));
-        scheduleLessonsList.add(oneTime3Days(nameUkrMova,yellowRedWeek,les2Start,les2Finish,restLessons,1,4,0));
-        scheduleLessonsList.add(oneTime3Days(nameUkrMova,yellowRedWeek,"16:00:00","16:30:00",restLessons,1,4,0));
-        scheduleLessonsList.add(oneTime3Days(nameUkrMova,yellowRedWeek,"16:40:00","17:10:00",restLessons,1,4,0));
+        //scheduleLessonsList.add(oneTime3Days(nameUkrMova,yellowRedWeek,les2Start,les2Finish,restLessons,4,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameUkrMova,yellowRedWeek,les3Start,les3Finish,restLessons,2,0,0));
 
         //Літературне читання
-        scheduleLessonsList.add(oneTime3Days(nameLiteratura,greenBlueWeek,les4Start,les4Finish,restLessons,2,3,0));
-        scheduleLessonsList.add(oneTime3Days(nameLiteratura,greenBlueWeek,les3Start,les3Finish,restLessons,4,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameLiteratura,greenBlueWeek,les4Start,les4Finish,restLessons,2,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameLiteratura,greenBlueWeek,les3Start,les3Finish,restLessons,3,5,0));
 
-        scheduleLessonsList.add(oneTime3Days(nameLiteratura,yellowRedWeek,les4Start,les4Finish,restLessons,1,2,0));
-        scheduleLessonsList.add(oneTime3Days(nameLiteratura,yellowRedWeek,les1Start,les1Finish,restLessons,3,5,0));
+        scheduleLessonsList.add(oneTime3Days(nameLiteratura,yellowRedWeek,les4Start,les4Finish,restLessons,2,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameLiteratura,yellowRedWeek,les3Start,les3Finish,restLessons,3,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameLiteratura,yellowRedWeek,les1Start,les1Finish,restLessons,5,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameLiteratura,yellowRedWeek,les2Start,les2Finish,restLessons,4,0,0));
 
         //математика
-        scheduleLessonsList.add(oneTime3Days(nameMatematika,greenBlueWeek,les3Start,les3Finish,restLessons,2,3,5));
-        scheduleLessonsList.add(oneTime3Days(nameMatematika,greenBlueWeek,les2Start,les2Finish,restLessons,4,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameMatematika,greenBlueWeek,"16:00:00","16:40:00",restLessons,3,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameMatematika,greenBlueWeek,les2Start,les2Finish,restLessons,3,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameMatematika,greenBlueWeek,les2Start,les2Finish,restLessons,2,4,5));
+        scheduleLessonsList.add(oneTime3Days(nameMatematika,greenBlueWeek,les1Start,les1Finish,restLessons,5,0,0));
 
-        scheduleLessonsList.add(oneTime3Days(nameMatematika,yellowRedWeek,les3Start,les3Finish,restLessons,1,2,5));
-        scheduleLessonsList.add(oneTime3Days(nameMatematika,yellowRedWeek,les2Start,les2Finish,restLessons,3,5,0));
-        scheduleLessonsList.add(oneTime3Days(nameMatematika,yellowRedWeek,"16:00:00","16:40:00",restLessons,3,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameMatematika,yellowRedWeek,les2Start,les2Finish,restLessons,1,2,3));
+        scheduleLessonsList.add(oneTime3Days(nameMatematika,yellowRedWeek,les2Start,les2Finish,restLessons,5,0,0));
 
         //ЯДС
-        scheduleLessonsList.add(oneTime3Days(nameJDC,greenBlueWeek,les5Start,les5Finish,restLessons,2,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameJDC,greenBlueWeek,les1Start,les1Finish,restLessons,4,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameJDC,greenBlueWeek,les4Start,les4Finish,restLessons,5,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameJDC,greenBlueWeek,les3Start,les3Finish,restLessons,1,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameJDC,greenBlueWeek,les4Start,les4Finish,restLessons,3,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameJDC,greenBlueWeek,les2Start,les2Finish,restLessons,5,0,0));
 
-        scheduleLessonsList.add(oneTime3Days(nameJDC,yellowRedWeek,les5Start,les5Finish,restLessons,2,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameJDC,yellowRedWeek,les3Start,les3Finish,restLessons,3,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameJDC,yellowRedWeek,les3Start,les3Finish,restLessons,1,5,0));
 
         //Информатика
         scheduleLessonsList.add(oneTime3Days(nameInformatika,yellowRedWeek,les3Start,les3Finish,informatika,4,0,0));
 
         //English
-        scheduleLessonsList.add(oneTime3Days(nameEnglish1,greenBlueWeek,les3Start,"11:15:00",english1,1,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameEnglish1,greenBlueWeek,les1Start,"09:55:00",english1,3,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameEnglish2,greenBlueWeek,les3Start,"11:15:00",english2,1,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameEnglish2,greenBlueWeek,les1Start,"09:55:00",english2,3,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameEnglish1,greenBlueWeek,"18:00:00","19:00:00",english1,3,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameEnglish2,greenBlueWeek,"15:00:00","16:00:00",english2,3,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameEnglish2,greenBlueWeek,les2Start,les2Finish,english2,1,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameEnglish2,greenBlueWeek,les1Start,les1Finish,english2,3,0,0));
 
-        scheduleLessonsList.add(oneTime3Days(nameEnglish1,yellowRedWeek,"12:15:00","12:55:00",english1,3,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameEnglish2,yellowRedWeek,"12:15:00","12:55:00",english2,3,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameEnglish1,yellowRedWeek,"18:00:00","19:00:00",english1,3,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameEnglish2,yellowRedWeek,"15:00:00","16:00:00",english2,3,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameEnglish2,yellowRedWeek,les1Start,les1Finish,english2,3,0,0));
 
         //Физ-ра
-        scheduleLessonsList.add(oneTime3Days(nameFizra,greenBlueWeek,"09:30:00","09:50:00",fizra,2,0,0));
-        scheduleLessonsList.add(oneTime3Days(nameFizra,yellowRedWeek,"09:30:00","09:50:00",fizra,2,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameFizra,greenBlueWeek,les1Start,les1Finish,fizra,2,0,0));
+        //scheduleLessonsList.add(oneTime3Days(nameFizra,greenBlueWeek,les2Start,les2Finish,fizra,4,0,0));
+        scheduleLessonsList.add(oneTime3Days(nameFizra,yellowRedWeek,les1Start,les1Finish,fizra,2,0,0));
 
         //Пишем рассписание в файл .csv
         FileWriter fw = new FileWriter("/home/forever/sch.csv");
@@ -180,7 +171,7 @@ public class Calendar {
 
     //делает массив дат определённого периода
     public static List<LocalDate> dateList(){
-        LocalDate startDate = LocalDate.of(2023, Month.JANUARY, 16);  //с понедельника
+        LocalDate startDate = LocalDate.of(2023, Month.FEBRUARY, 27);  //с понедельника
         LocalDate endDate = LocalDate.of(2023, Month.MARCH, 25);   //по субботу
         Set<DayOfWeek> weekend = EnumSet.of(DayOfWeek.SATURDAY, DayOfWeek.SUNDAY);
 
