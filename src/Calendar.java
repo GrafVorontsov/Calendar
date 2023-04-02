@@ -42,7 +42,7 @@ public class Calendar {
 
         for(LocalDate date:days){
 
-            if (date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) % 2 != 0){
+            if (date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) % 2 == 0){
                 yellowRedWeek.add(date);
                 //System.out.println(date);
             } else {
@@ -171,8 +171,8 @@ public class Calendar {
 
     //делает массив дат определённого периода
     public static List<LocalDate> dateList(){
-        LocalDate startDate = LocalDate.of(2023, Month.FEBRUARY, 27);  //с понедельника
-        LocalDate endDate = LocalDate.of(2023, Month.MARCH, 25);   //по субботу
+        LocalDate startDate = LocalDate.of(2023, Month.APRIL, 3);  //с понедельника
+        LocalDate endDate = LocalDate.of(2023, Month.MAY, 20);   //по субботу
         Set<DayOfWeek> weekend = EnumSet.of(DayOfWeek.SATURDAY, DayOfWeek.SUNDAY);
 
         //исключаем выходные
