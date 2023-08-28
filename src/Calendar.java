@@ -51,20 +51,33 @@ public class Calendar {
         }
 
         //расписание звонков
-        String les1Start = "9:15:00";
-        String les1Finish = "10:00:00";
+        //модуль 1
+        String les1Start = "9:00:00";
+        String les1Finish = "9:45:00";
 
-        String les2Start = "10:10:00";
-        String les2Finish = "10:55:00";
+        String les2Start = "9:55:00";
+        String les2Finish = "10:40:00";
 
-        String les3Start = "11:00:00";
-        String les3Finish = "11:45:00";
+        //модуль 2
+        String les3Start = "10:50:00";
+        String les3Finish = "11:35:00";
 
-        String les4Start = "12:00:00";
-        String les4Finish = "12:45:00";
+        String les4Start = "11:45:00";
+        String les4Finish = "12:30:00";
 
-        String les5Start = "13:00:00";
-        String les5Finish = "13:45:00";
+        //модуль 3
+        String les5Start = "12:50:00";
+        String les5Finish = "13:35:00";
+
+        String les5Start = "13:45:00";
+        String les5Finish = "14:30:00";
+
+        //модуль 4
+        String les5Start = "14:50:00";
+        String les5Finish = "15:35:00";
+
+        String les5Start = "15:45:00";
+        String les5Finish = "16:30:00";
 
         ArrayList<String> scheduleLessonsList = new ArrayList<>();
 
