@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a8fe538-75ea-4726-a2a9-517eb78b97b6" name="Changes" comment="2 семестр">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4a8fe538-75ea-4726-a2a9-517eb78b97b6" name="Changes" comment="1 семестр 5й класс черновик">
+      <change afterPath="$PROJECT_DIR$/src/HelpClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Timing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Title.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calendar.java" afterDir="false" />
     </list>
@@ -28,7 +31,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Jwwo223kRYYHY6I5TQjWsmD6C1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -75,7 +80,33 @@
       <workItem from="1677275993794" duration="52000" />
       <workItem from="1680464096572" duration="334000" />
       <workItem from="1680464905201" duration="99000" />
-      <workItem from="1693249306820" duration="726000" />
+      <workItem from="1693249306820" duration="1604000" />
+      <workItem from="1693480665640" duration="5096000" />
+      <workItem from="1693765876271" duration="2021000" />
+      <workItem from="1693856405679" duration="926000" />
+      <workItem from="1693940728147" duration="1096000" />
+      <workItem from="1694027418098" duration="2337000" />
+      <workItem from="1694116782938" duration="1142000" />
+      <workItem from="1694372121230" duration="1556000" />
+      <workItem from="1694462982580" duration="1211000" />
+      <workItem from="1694547198370" duration="877000" />
+      <workItem from="1694634878807" duration="806000" />
+      <workItem from="1694723131440" duration="2463000" />
+      <workItem from="1694979021904" duration="1268000" />
+      <workItem from="1695066127432" duration="479000" />
+      <workItem from="1695152082616" duration="417000" />
+      <workItem from="1695243571222" duration="387000" />
+      <workItem from="1695327145677" duration="495000" />
+      <workItem from="1695586275828" duration="814000" />
+      <workItem from="1695666563049" duration="897000" />
+      <workItem from="1695765712549" duration="1097000" />
+      <workItem from="1695848284493" duration="747000" />
+      <workItem from="1698699558125" duration="3729000" />
+      <workItem from="1698786145662" duration="747000" />
+      <workItem from="1698918261566" duration="12600000" />
+      <workItem from="1704915603364" duration="9437000" />
+      <workItem from="1704965309466" duration="1822000" />
+      <workItem from="1704983337313" duration="1292000" />
     </task>
     <task id="LOCAL-00001" summary="q">
       <created>1673021900845</created>
@@ -98,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677276017872</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1 семестр 5й класс черновик">
+      <created>1693250159457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693250159457</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +156,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="q" />
     <MESSAGE value="2 семестр" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 семестр" />
+    <MESSAGE value="1 семестр 5й класс черновик" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 семестр 5й класс черновик" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
