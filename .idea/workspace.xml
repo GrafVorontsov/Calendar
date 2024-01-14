@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a8fe538-75ea-4726-a2a9-517eb78b97b6" name="Changes" comment="1 семестр 5й класс черновик">
-      <change afterPath="$PROJECT_DIR$/src/HelpClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Timing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Title.java" afterDir="false" />
+    <list default="true" id="4a8fe538-75ea-4726-a2a9-517eb78b97b6" name="Changes" comment="2 семестр 5й класс черновик">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Timing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,8 @@
       <workItem from="1698918261566" duration="12600000" />
       <workItem from="1704915603364" duration="9437000" />
       <workItem from="1704965309466" duration="1822000" />
-      <workItem from="1704983337313" duration="1292000" />
+      <workItem from="1704983337313" duration="3294000" />
+      <workItem from="1705234305459" duration="2889000" />
     </task>
     <task id="LOCAL-00001" summary="q">
       <created>1673021900845</created>
@@ -136,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693250159457</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2 семестр 5й класс черновик">
+      <created>1704988090443</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704988090443</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +162,8 @@
     <MESSAGE value="q" />
     <MESSAGE value="2 семестр" />
     <MESSAGE value="1 семестр 5й класс черновик" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 семестр 5й класс черновик" />
+    <MESSAGE value="2 семестр 5й класс черновик" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 семестр 5й класс черновик" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
