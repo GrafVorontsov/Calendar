@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4a8fe538-75ea-4726-a2a9-517eb78b97b6" name="Changes" comment="2 семестр 5й класс черновик">
+      <change afterPath="$PROJECT_DIR$/src/Variables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelpClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelpClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Timing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -27,6 +37,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2Jwwo223kRYYHY6I5TQjWsmD6C1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,14 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master0",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/forever/IdeaProjects/Calendar",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calendar" />
@@ -104,7 +120,11 @@
       <workItem from="1704915603364" duration="9437000" />
       <workItem from="1704965309466" duration="1822000" />
       <workItem from="1704983337313" duration="3294000" />
-      <workItem from="1705234305459" duration="2889000" />
+      <workItem from="1705234305459" duration="2972000" />
+      <workItem from="1705246824850" duration="478000" />
+      <workItem from="1705680278793" duration="441000" />
+      <workItem from="1710884817699" duration="4436000" />
+      <workItem from="1711034543744" duration="5079000" />
     </task>
     <task id="LOCAL-00001" summary="q">
       <created>1673021900845</created>
@@ -141,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704988090443</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2 семестр 5й класс черновик">
+      <created>1705237354853</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705237354853</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
