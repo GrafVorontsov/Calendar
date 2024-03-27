@@ -18,60 +18,72 @@ public class Calendar {
         ArrayList<LocalDate> yellowWeek = new ArrayList<>();    //жёлтая неделя
         ArrayList<LocalDate> redWeek = new ArrayList<>();       //красная неделя
         ArrayList<LocalDate> week = new ArrayList<>();          //неделя
-
+        /*greenWeek.add(LocalDate.now());5
+        blueWeek.add(LocalDate.now().plusDays(2));
+        yellowWeek.add(LocalDate.now().plusDays(1));
+        redWeek.add(LocalDate.now().plusDays(3));*/
+        Deque<ArrayList<LocalDate>> weeksList = new LinkedList<>(); //все цвета недель
+        weeksList.add(greenWeek);   //0
+        weeksList.add(yellowWeek);  //1
+        weeksList.add(blueWeek);    //2
+        weeksList.add(redWeek);     //3
 
         List<LocalDate> days = HelpClass.dateList(); //общий массив дат
 
-        int startWeekNumber = 3; //номер первой недели в полугодии. 2024год 3-я неделя жёлтая
+        int startWeekNumber = Variables.startWeekNumber;
 
-        System.out.println("Жёлтая неделя");
-
+        //Перемещения недель
+        //меняем последовательность недель, с какой недели начинается та и первая в списке
+        switch (Variables.startWeekColor){
+            case "green" : moveWeekToFront(weeksList, greenWeek); break;
+            case "yellow" : moveWeekToFront(weeksList, yellowWeek); break;
+            case "blue" : moveWeekToFront(weeksList, blueWeek); break;
+            case "red" : moveWeekToFront(weeksList, redWeek); break;
+        }
+        //moveWeekToFront(weeksList, blueWeek); //меняем последовательность недель, с какой недели начинается та и первая в списке
+        //System.out.println(weeksList);
+        //назначаем каждой неделе свои даты по очереди
         for(LocalDate date:days){
 
             if ((date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) == startWeekNumber)
                     || (date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) == startWeekNumber + 4)
                     || (date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) == startWeekNumber + 8)){
-                yellowWeek.add(date);
-                System.out.println(date);
+                getElementAtIndex(weeksList, 0).add(date);
+                //System.out.println(date);
             }
         }
-
-        System.out.println("Синяя неделя");
 
         for(LocalDate date:days){
 
             if ((date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) == startWeekNumber + 1)
                     || (date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) == startWeekNumber + 5)
                     || (date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) == startWeekNumber + 9)){
-                blueWeek.add(date);
-                System.out.println(date);
+                getElementAtIndex(weeksList, 1).add(date);
+                //System.out.println(date);
             }
         }
-
-        System.out.println("Красная неделя");
 
         for(LocalDate date:days){
 
             if ((date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) == startWeekNumber + 2)
                     || (date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) == startWeekNumber + 6)
                     || (date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) == startWeekNumber + 10)){
-                redWeek.add(date);
-                System.out.println(date);
+                getElementAtIndex(weeksList, 2).add(date);
+                //System.out.println(date);
             }
         }
-
-        System.out.println("Зелёная неделя");
 
         for(LocalDate date:days){
 
             if ((date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) == startWeekNumber + 3)
                     || (date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) == startWeekNumber + 7)
                     || (date.get(ChronoField.ALIGNED_WEEK_OF_YEAR) == startWeekNumber + 11)){
-                greenWeek.add(date);
-                System.out.println(date);
+                getElementAtIndex(weeksList, 3).add(date);
+                //System.out.println(date);
             }
         }
 
+        //формируем массив уроков по неделям и датам
         ArrayList<String> scheduleLessonsList = new ArrayList<>();
 
         String weekColor = "Жёлтая неделя";
@@ -201,7 +213,7 @@ public class Calendar {
         }
 
         //Пишем рассписание в файл .csv
-        FileWriter fw = new FileWriter("/home/forever/sch.csv");
+        FileWriter fw = new FileWriter(Variables.pathToWriteFile);
         fw.write("Subject,Start Date,Start Time,End Date,End Time,Description" + System.lineSeparator());
 
         for(String sch:scheduleLessonsList){
@@ -209,5 +221,31 @@ public class Calendar {
         }
 
         fw.close();
+    }
+
+    //сортируем недели смещаяя по очереди
+    public static void moveWeekToFront(Deque<ArrayList<LocalDate>> weeksList, ArrayList<LocalDate> week) {
+        if (weeksList.contains(week)) {
+            while (!weeksList.peekFirst().equals(week)) {
+                weeksList.addLast(weeksList.pollFirst());
+            }
+        }
+    }
+
+    //поиск элемента в очереди по индексу
+    public static ArrayList<LocalDate> getElementAtIndex(Deque<ArrayList<LocalDate>> weeksList, int index) {
+        if (index < 0 || index >= weeksList.size()) {
+            throw new IndexOutOfBoundsException("Индекс находится за пределами диапазона");
+        }
+
+        int currentIndex = 0;
+        for (ArrayList<LocalDate> week : weeksList) {
+            if (currentIndex == index) {
+                return week;
+            }
+            currentIndex++;
+        }
+
+        throw new IndexOutOfBoundsException("Элемент с указанным индексом не найден");
     }
 }
