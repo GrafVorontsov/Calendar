@@ -11,7 +11,7 @@ public class Variables {
 
     //static int startWeekNumber = 3; //номер первой недели в полугодии. 2024год 3-я неделя жёлтая
     static int startWeekNumber = 14; //номер первой недели после каникул весенних.
-    static String startWeekColor = "red";   //2024год 14-я неделя красная
+    static String startWeekColor = "Red Week";   //2024год 14-я неделя красная
 
     static String pathToWriteFile = "/home/forever/sch.csv";    //расположение файла в который идёт запись
 }
