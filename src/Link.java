@@ -34,9 +34,9 @@ public class Link {
             "Код доступа: k3GKYY" + System.lineSeparator() +
             "Ссылка: https://us04web.zoom.us/j/71124862389?pwd=qcbfNXLig4R2hbb7kDz1jyEkKrhKbO.1\"";
 
-    String history = "\"Идентификатор: нет" + System.lineSeparator() +
-            "Код доступа: нет" + System.lineSeparator() +
-            "Ссылка: нет\"";
+    String history = "\"Идентификатор: 725 5980 4566" + System.lineSeparator() +
+            "Код доступа: 54bLDb" + System.lineSeparator() +
+            "Ссылка: https://us04web.zoom.us/j/72559804566?pwd=YqKrYG68ba4Wi1shzwByJcbxVYaNi3.1\"";
     String mystectvo = "\"Идентификатор: нет" + System.lineSeparator() +
             "Код доступа: нет" + System.lineSeparator() +
             "Ссылка: нет\"";
@@ -48,7 +48,7 @@ public class Link {
 Музичне мистецтво – Охрій Олександр Анатолійович
 
 ********* Чёрный список *********
-Історія – Плутахіна Тетяна Ігорівна
+
 Образотворче мистецтво – Мироненко Світлана Ігорівна
 *********************************
 
@@ -64,4 +64,7 @@ public class Link {
 Англійська мова – Жеребілова Олена Сергіївна
 Здоров'я, безпека та добробут – Лютенко Анастасія Григорівна
 Технології – Пономаренко Ірина Олексіївна
+----ну несовсем----
+Історія – Плутахіна Тетяна Ігорівна
+
  */

@@ -54,8 +54,8 @@ public class HelpClass {
 
     //делает массив дат определённого периода
     public static List<LocalDate> dateList(){
-        LocalDate startDate = LocalDate.of(2024, Month.JANUARY, 15);  //с понедельника
-        LocalDate endDate = LocalDate.of(2024, Month.MARCH, 23);   //по субботу
+        LocalDate startDate = LocalDate.of(Variables.year, Variables.startMonth, Variables.startDay);  //с понедельника
+        LocalDate endDate = LocalDate.of(Variables.year, Variables.endMonth, Variables.endDay);   //по субботу
         Set<DayOfWeek> weekend = EnumSet.of(DayOfWeek.SATURDAY, DayOfWeek.SUNDAY);
 
         //исключаем выходные
