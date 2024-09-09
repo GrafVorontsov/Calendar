@@ -6,11 +6,12 @@ public class Title {
 
     public String getMatematika() { return "Математика"; }
 
-    public String getLiteratura() { return "Зарубіжна література"; }
+    public String getZarubizhnaLiteratura() { return "Зарубіжна література"; }
 
     public String getPriroda() { return "Пізнаємо природу"; }
 
     public String getEnglish() { return "English"; }
+    public String getEnglish2() { return "English (2гр)"; }
 
     public String getInformatika() { return "Інформатика"; }
 
@@ -25,4 +26,6 @@ public class Title {
     public String getHealthy() { return "Здоров`я безпека та добробут"; }
 
     public String getMusic() { return "Музичне мистецтво"; }
+
+    public String getGeografya() { return "Географія"; }
 }

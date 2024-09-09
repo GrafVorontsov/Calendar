@@ -4,12 +4,14 @@ public class Timing {
     //модуль 1
     String _1Start915 = "9:15:00";
     String _1Start900 = "9:00:00";
+    String _1Start950 = "9:50:00";
+    String _1Finish945 = "9:45:00";
     String _1Finish = "10:40:00";
 
     //модуль 2
     String _2Start1100 = "11:00:00";
     String _2Start1050 = "10:50:00";
-    String _2Start = "10:45:00";
+    String _2Start1045 = "10:45:00";
     String _2Finish = "12:30:00";
 
     //модуль 3
@@ -23,4 +25,6 @@ public class Timing {
     String _4Start1450 = "14:50:00";
     String _4Start = "15:00:00";
     String _4Finish = "16:30:00";
+    String _1900 = "19:00:00";
+    String _2030 = "20:30:00";
 }

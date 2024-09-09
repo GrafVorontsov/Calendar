@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a8fe538-75ea-4726-a2a9-517eb78b97b6" name="Changes" comment="2 семестр 5й класс черновик">
-      <change afterPath="$PROJECT_DIR$/src/Variables.java" afterDir="false" />
+    <list default="true" id="4a8fe538-75ea-4726-a2a9-517eb78b97b6" name="Changes" comment="2 семестр 5й">
+      <change afterPath="$PROJECT_DIR$/src/Week.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelpClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelpClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Timing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Title.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +114,11 @@
       <workItem from="1705680278793" duration="441000" />
       <workItem from="1710884817699" duration="4436000" />
       <workItem from="1711034543744" duration="5079000" />
-      <workItem from="1722597321665" duration="319000" />
+      <workItem from="1722597321665" duration="711000" />
+      <workItem from="1725480411817" duration="2580000" />
+      <workItem from="1725565651559" duration="2264000" />
+      <workItem from="1725653947142" duration="1366000" />
+      <workItem from="1725828320410" duration="7814000" />
     </task>
     <task id="LOCAL-00001" summary="q">
       <created>1673021900845</created>
@@ -156,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705237354853</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2 семестр 5й">
+      <created>1722597791456</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722597791457</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +191,8 @@
     <MESSAGE value="2 семестр" />
     <MESSAGE value="1 семестр 5й класс черновик" />
     <MESSAGE value="2 семестр 5й класс черновик" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 семестр 5й класс черновик" />
+    <MESSAGE value="2 семестр 5й" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 семестр 5й" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
