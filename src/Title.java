@@ -11,6 +11,7 @@ public class Title {
     public String getPriroda() { return "Пізнаємо природу"; }
 
     public String getEnglish() { return "English"; }
+
     public String getEnglish2() { return "English (2гр)"; }
 
     public String getInformatika() { return "Інформатика"; }

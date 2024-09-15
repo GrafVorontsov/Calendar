@@ -27,40 +27,37 @@ public class Link {
     String ukrmova = "\"Идентификатор: 844 8943 5142" + System.lineSeparator() +
             "Код доступа: B6NAbW" + System.lineSeparator() +
             "Ссылка: https://us05web.zoom.us/j/84489435142?pwd=1pP5t3mkvHG1BsVLcKr2PBu69Sp4JH.1\"";
-    String ukrlit = "\"Идентификатор: 873 6333 2578" + System.lineSeparator() +
-            "Код доступа: gi7Znf" + System.lineSeparator() +
-            "Ссылка: https://us05web.zoom.us/j/87363332578?pwd=kwpqaHYprZBH5BpXbRqUmP1uA7IdGa.1\"";
+    String ukrlit = "\"Идентификатор: 832 9184 0924" + System.lineSeparator() +
+            "Код доступа: 5reT78" + System.lineSeparator() +
+            "Ссылка: https://us05web.zoom.us/j/83291840924?pwd=FsSgF48cdUmHyEiLraGHZlqmaXjt7O.1\"";
     String zarubizhnaliteratura = "\"Идентификатор: 771 8480 9288" + System.lineSeparator() +
             "Код доступа: x80pnh" + System.lineSeparator() +
             "Ссылка: https://us04web.zoom.us/j/77184809288?pwd=RmbaubbjFHZCL5zEgrbQK8bWfq37rB.1\"";
-
-    String history = "\"Идентификатор: 758 8191 8733" + System.lineSeparator() +
-            "Код доступа: 9KWBcc" + System.lineSeparator() +
-            "Ссылка: https://us04web.zoom.us/j/75881918733?pwd=gx7rtM8AF51caeiOS7obWLTRQic0j2.1\"";
-    String mystectvo = "\"Идентификатор: нет" + System.lineSeparator() +
-            "Код доступа: нет" + System.lineSeparator() +
-            "Ссылка: нет\"";
-
     String geografya = "\"Идентификатор: 742 0312 7303" + System.lineSeparator() +
             "Код доступа: GfS1vm" + System.lineSeparator() +
             "Ссылка: https://us04web.zoom.us/j/74203127303?pwd=uZVL4sNZ3FnEQNk2XJJYNXt4LvxsRn.1\"";
+    String history = "\"Идентификатор: 727 6431 0376" + System.lineSeparator() +
+            "Код доступа: fNTU54" + System.lineSeparator() +
+            "Ссылка: https://us04web.zoom.us/j/72764310376?pwd=Ya5zBFvwBtaIO0c5cRIYoAx4l7KIo2.1\"";
+    String mystectvo = "\"Идентификатор: нет" + System.lineSeparator() +
+            "Код доступа: нет" + System.lineSeparator() +
+            "Ссылка: нет постоянной ссылки\"";
 }
 
 
 /*
+*************** Чёрный список ***************
 
-+ География - Тетяна Василівна Меренкова
+ Образотворче мистецтво – Мироненко Світлана Ігорівна
+--------------- Очень сложная ---------------
++ Історія – Плутахіна Тетяна Ігорівна
 
-************ Чёрный список *************
+*********************************************
 
-Образотворче мистецтво – Мироненко Світлана Ігорівна
-
-*********************************
-
------------- Адекватные -------------------
+--------------- Адекватные -------------------
 
 + Українська мова – Можин Володимир Миколайович
- Українська література – Можин Володимир Миколайович
++ Українська література – Можин Володимир Миколайович
 + Інформатика - Ремньова Анастасія Олексіївна
 + Математика - Ремньова Анастасія Олексіївна
 + Фізична культура – Плужніков Антон Олексійович
@@ -70,7 +67,6 @@ public class Link {
 + Здоров'я, безпека та добробут – Бондар Катерина Олександрівна
 + Зарубіжна література – Кондратенко Ганна Анатоліївна
 + Музичне мистецтво – Охрій Олександр Анатолійович
-------------- Очень сложная ----------------
- Історія – Плутахіна Тетяна Ігорівна
++ География - Тетяна Василівна Меренкова
 
  */
