@@ -42,7 +42,7 @@ public class Calendar {
 
         //назначаем каждой неделе свои даты по очереди
         for (LocalDate date : days) {
-            int weekOfYear = date.get(ChronoField.ALIGNED_WEEK_OF_YEAR);
+            int weekOfYear = date.get(IsoFields.WEEK_OF_WEEK_BASED_YEAR);
 
             // Определяем, в какую неделю нужно добавить дату
             int weekIndex;

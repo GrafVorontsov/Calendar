@@ -24,12 +24,12 @@ public class Link {
     String english = "\"Идентификатор: 886 4479 3267" + System.lineSeparator() +
             "Код доступа: 4xkteL" + System.lineSeparator() +
             "Ссылка: https://us05web.zoom.us/j/88644793267?pwd=ekcvae8E6waaJPzn4f8N5mnNGmKt8b.1\"";
-    String ukrmova = "\"Идентификатор: 844 8943 5142" + System.lineSeparator() +
-            "Код доступа: B6NAbW" + System.lineSeparator() +
-            "Ссылка: https://us05web.zoom.us/j/84489435142?pwd=1pP5t3mkvHG1BsVLcKr2PBu69Sp4JH.1\"";
-    String ukrlit = "\"Идентификатор: 832 9184 0924" + System.lineSeparator() +
-            "Код доступа: 5reT78" + System.lineSeparator() +
-            "Ссылка: https://us05web.zoom.us/j/83291840924?pwd=FsSgF48cdUmHyEiLraGHZlqmaXjt7O.1\"";
+    String ukrmova = "\"Идентификатор: 898 9809 2989" + System.lineSeparator() +
+            "Код доступа: 0R960d" + System.lineSeparator() +
+            "Ссылка: https://us05web.zoom.us/j/89898092989?pwd=lUM1eHj4Ql5nOBYMOOzBt328eor0zb.1\"";
+    String ukrlit = "\"Идентификатор: 831 9825 8969" + System.lineSeparator() +
+            "Код доступа: eNwN94" + System.lineSeparator() +
+            "Ссылка: https://us05web.zoom.us/j/83198258969?pwd=1q0jNarFml2qjW9akPpybi8bKeh92u.1\"";
     String zarubizhnaliteratura = "\"Идентификатор: 771 8480 9288" + System.lineSeparator() +
             "Код доступа: x80pnh" + System.lineSeparator() +
             "Ссылка: https://us04web.zoom.us/j/77184809288?pwd=RmbaubbjFHZCL5zEgrbQK8bWfq37rB.1\"";
@@ -48,9 +48,9 @@ public class Link {
 /*
 *************** Чёрный список ***************
 
- Образотворче мистецтво – Мироненко Світлана Ігорівна
+- Образотворче мистецтво – Мироненко Світлана Ігорівна
 --------------- Очень сложная ---------------
-+ Історія – Плутахіна Тетяна Ігорівна
++? Історія – Плутахіна Тетяна Ігорівна
 
 *********************************************
 
@@ -66,7 +66,7 @@ public class Link {
 + Пізнаємо природу – Бондар Катерина Олександрівна
 + Здоров'я, безпека та добробут – Бондар Катерина Олександрівна
 + Зарубіжна література – Кондратенко Ганна Анатоліївна
-+ Музичне мистецтво – Охрій Олександр Анатолійович
-+ География - Тетяна Василівна Меренкова
+ Музичне мистецтво – Охрій Олександр Анатолійович
+ + География - Тетяна Василівна Меренкова
 
  */
