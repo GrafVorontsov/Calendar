@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a8fe538-75ea-4726-a2a9-517eb78b97b6" name="Changes" comment="1 семестр 6й класс">
+    <list default="true" id="4a8fe538-75ea-4726-a2a9-517eb78b97b6" name="Changes" comment="2 семестр 6й класс">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelpClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelpClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +70,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.25747126",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
@@ -157,7 +164,9 @@
       <workItem from="1736457472368" duration="717000" />
       <workItem from="1736595747158" duration="2541000" />
       <workItem from="1736609435261" duration="276000" />
-      <workItem from="1736711956346" duration="311000" />
+      <workItem from="1736711956346" duration="1034000" />
+      <workItem from="1736804167340" duration="413000" />
+      <workItem from="1742901877327" duration="14719000" />
     </task>
     <task id="LOCAL-00001" summary="q">
       <created>1673021900845</created>
@@ -222,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726420904592</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2 семестр 6й класс">
+      <option name="closed" value="true" />
+      <created>1736712563290</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736712563290</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +263,8 @@
     <MESSAGE value="2 семестр 5й класс черновик" />
     <MESSAGE value="2 семестр 5й" />
     <MESSAGE value="1 семестр 6й класс" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 семестр 6й класс" />
+    <MESSAGE value="2 семестр 6й класс" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 семестр 6й класс" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

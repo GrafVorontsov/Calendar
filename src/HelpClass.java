@@ -1,6 +1,5 @@
 import java.time.DayOfWeek;
 import java.time.LocalDate;
-import java.time.Month;
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;
@@ -10,75 +9,66 @@ import java.util.stream.Collectors;
 public class HelpClass {
     //назначает уроки по нужным датам и дням недели
     public static String oneTime3Days(String lessons,
-                                      ArrayList<LocalDate> list,
+                                      List<LocalDate> list,
                                       String startTime,
                                       String endTime,
                                       String info,
                                       int firstDay,
                                       int secondDay,
-                                      int thirdDay){
+                                      int thirdDay) {
+        // Используем StringJoiner для более эффективного concatenation
+        var result = new StringBuilder();
 
-        StringBuilder str = new StringBuilder();
+        // Используем Stream API для фильтрации дней недели
+        var days = new ArrayList<String>();
+        var dayNums = new int[]{firstDay, secondDay, thirdDay};
 
-        ArrayList<String> days = new ArrayList<>();
-
-        //проверка чтоб день недели не был равен нулю и добавляет их в массив
-        if (firstDay != 0){
-            days.add(dayOfWeek(firstDay));
-        }
-        if (secondDay !=0){
-            days.add(dayOfWeek(secondDay));
-        }
-        if (thirdDay !=0){
-            days.add(dayOfWeek(thirdDay));
-        }
-
-        //собирает нужную строку из дат, уроков, времени, дней для файла
-        for(LocalDate date:list){
-            for(String day:days){
-
-                if (date.getDayOfWeek() == DayOfWeek.valueOf(day)){
-
-                    str.append(lessons).append(",")
-                            .append(date.getDayOfMonth() + "/" + date.getMonthValue() + "/" + date.getYear()).append(",")
-                            .append(startTime).append(",")
-                            .append(date.getDayOfMonth() + "/" + date.getMonthValue() + "/" + date.getYear()).append(",")
-                            .append(endTime).append(",")
-                            .append(info).append(System.getProperty("line.separator"));
-                }
+        for (int day : dayNums) {
+            if (day != 0) {
+                days.add(dayOfWeek(day));
             }
         }
 
-        return str.toString();
+        // Оптимизируем циклы с помощью Stream API
+        list.stream()
+                .filter(date -> days.contains(date.getDayOfWeek().name()))
+                .forEach(date -> {
+                    result.append(String.format("%s,%d/%d/%d,%s,%d/%d/%d,%s,%s",
+                                    lessons,
+                                    date.getDayOfMonth(), date.getMonthValue(), date.getYear(),
+                                    startTime,
+                                    date.getDayOfMonth(), date.getMonthValue(), date.getYear(),
+                                    endTime,
+                                    info))
+                            .append(System.lineSeparator());
+                });
+
+        return result.toString();
     }
 
-    //делает массив дат определённого периода
-    public static List<LocalDate> dateList(){
-        LocalDate startDate = LocalDate.of(Variables.year, Variables.startMonth, Variables.startDay);  //с понедельника
-        LocalDate endDate = LocalDate.of(Variables.year, Variables.endMonth, Variables.endDay);   //по субботу
+    // Создаёт список дат определённого периода
+    public static List<LocalDate> dateList() {
+        LocalDate startDate = LocalDate.of(Variables.year, Variables.startMonth, Variables.startDay);
+        LocalDate endDate = LocalDate.of(Variables.year, Variables.endMonth, Variables.endDay);
+
+        // Используем EnumSet для выходных дней
         Set<DayOfWeek> weekend = EnumSet.of(DayOfWeek.SATURDAY, DayOfWeek.SUNDAY);
 
-        //исключаем выходные
-
+        // Оптимизируем stream с помощью более компактного фильтра
         return startDate.datesUntil(endDate)
-                .filter(d -> !weekend.contains(d.getDayOfWeek()))
+                .filter(date -> !weekend.contains(date.getDayOfWeek()))
                 .collect(Collectors.toList());
     }
 
-    //перевод цифр в нормальное обозначение дня недели
-    public static String dayOfWeek(int day){
-
-        String dayOfWeek = "";
-
-        switch (day) {
-            case 1 -> dayOfWeek = "MONDAY";
-            case 2 -> dayOfWeek = "TUESDAY";
-            case 3 -> dayOfWeek = "WEDNESDAY";
-            case 4 -> dayOfWeek = "THURSDAY";
-            case 5 -> dayOfWeek = "FRIDAY";
-            default -> {
-            }
-        }
-        return dayOfWeek;
+    // Перевод цифр в обозначение дня недели с использованием enhanced switch
+    public static String dayOfWeek(int day) {
+        return switch (day) {
+            case 1 -> "MONDAY";
+            case 2 -> "TUESDAY";
+            case 3 -> "WEDNESDAY";
+            case 4 -> "THURSDAY";
+            case 5 -> "FRIDAY";
+            default -> "";
+        };
     }
 }
