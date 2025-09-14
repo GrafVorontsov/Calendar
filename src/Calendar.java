@@ -142,125 +142,141 @@ public class Calendar {
             WeekColor weekColor = WeekColor.fromString(week.getName());
             switch (weekColor) {
                 case GREEN:
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getPriroda(), week.getDates(), time._1Start900, time._1Finish, link.priroda, 1, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getAlgebra(), week.getDates(), time._1Start830, time._1Finish1010, link.algebra, 1, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getAlgebra(), week.getDates(), time._4Start1420, time._4Finish1600, link.algebra, 2, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMatematika(), week.getDates(), time._2Start1100, time._2Finish, link.matematika, 1, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMatematika(), week.getDates(), time._1Start915, time._1Finish, link.matematika, 2, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMatematika(), week.getDates(), time._2Start1100, time._2Finish, link.matematika, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getGeografya(), week.getDates(), time._2Start1020, time._2Finish1200, link.geografya, 1, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._3Start1250, time._3Finish, link.ukrmova, 1, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._2Start1050, time._2Finish, link.ukrmova, 2, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getZarubizhnaLiteratura(), week.getDates(), time._3Start1220, time._3Finish1400, link.zarubizhnaliteratura, 1, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._4Start1450, time._4Finish, link.english, 1, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._3Start1250, time._3Finish, link.english, 2, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish2(), week.getDates(), time._1900, time._2030, link.english, 5, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._4Start1420, time._4Finish1600, link.english, 1, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._4Start1420, time._4Finish1600, link.english, 4, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getFizra(), week.getDates(), time._1Start900, time._1Finish945, link.fizra, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getBiologia(), week.getDates(), time._3Start1220, time._3Finish1400, link.biologia, 2, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getBiologia(), week.getDates(), time._2Start1020, time._2Finish1200, link.biologia, 5, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getHistory(), week.getDates(), time._1Start950, time._1Finish, link.history, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrainHistory(), week.getDates(), time._1Start830, time._1Finish1010, link.ukrainHistory, 2, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrLit(), week.getDates(), time._3Start1250, time._3Finish, link.ukrlit, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._1Start830, time._1Finish1010, link.ukrmova, 3, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getTechnology(), week.getDates(), time._4Start1450, time._4Finish, link.technology, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getFizra(), week.getDates(), time._2Start1020, time._2Finish1200, link.fizra, 2, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getFizra(), week.getDates(), time._2Start1020, time._2Finish1200, link.fizra, 4, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMusic(), week.getDates(), time._2Start1045, time._2Finish, link.music, 4, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getGeometry(), week.getDates(), time._2Start1020, time._2Finish1200, link.geometria, 3, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getGeografya(), week.getDates(), time._3Start1250, time._3Finish, link.geografya, 4, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getPhizika(), week.getDates(), time._3Start1220, time._3Finish1400, link.phizika, 3, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMystectvo(), week.getDates(), time._1Start900, time._1Finish, link.mystectvo, 5, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrLit(), week.getDates(), time._1Start830, time._1Finish1010, link.ukrlit, 4, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getInformatika(), week.getDates(), time._2Start1100, time._2Finish, link.informatika, 5, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getXimia(), week.getDates(), time._3Start1220, time._3Finish1400, link.ximia, 4, 0, 0));
+
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getInformatika(), week.getDates(), time._1Start830, time._1Finish1010, link.informatika, 5, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getInformatika2(), week.getDates(), time._4Start1420, time._4Finish1600, link.informatika, 5, 0, 0));
+
                     break;
                 case YELLOW:
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getPriroda(), week.getDates(), time._1Start900, time._1Finish, link.priroda, 1, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getAlgebra(), week.getDates(), time._1Start830, time._1Finish1010, link.algebra, 1, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMatematika(), week.getDates(), time._2Start1100, time._2Finish, link.matematika, 1, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMatematika(), week.getDates(), time._2Start1100, time._2Finish, link.matematika, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getGeografya(), week.getDates(), time._2Start1020, time._2Finish1200, link.geografya, 1, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._3Start1250, time._3Finish, link.ukrmova, 1, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._2Start1050, time._2Finish, link.ukrmova, 2, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getGromadOsvita(), week.getDates(), time._3Start1220, time._3Finish1400, link.gromadOsvita, 1, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._4Start1450, time._4Finish, link.english, 1, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._3Start1250, time._3Finish, link.english, 2, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish2(), week.getDates(), time._1900, time._2030, link.english, 5, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._4Start1420, time._4Finish1600, link.english, 1, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._3Start1220, time._3Finish1400, link.english, 2, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getFizra(), week.getDates(), time._1Start900, time._1Finish, link.fizra, 2, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getFizra(), week.getDates(), time._1Start900, time._1Finish945, link.fizra, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getBiologia(), week.getDates(), time._4Start1420, time._4Finish1600, link.biologia, 2, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getHistory(), week.getDates(), time._1Start950, time._1Finish, link.history, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._1Start830, time._1Finish1010, link.ukrmova, 2, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._1Start830, time._1Finish1010, link.ukrmova, 3, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrLit(), week.getDates(), time._3Start1250, time._3Finish, link.ukrlit, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getFizra(), week.getDates(), time._2Start1020, time._2Finish1200, link.fizra, 2, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getTechnology(), week.getDates(), time._4Start1450, time._4Finish, link.technology, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getGeometry(), week.getDates(), time._2Start1020, time._2Finish1200, link.geometria, 3, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getGeografya(), week.getDates(), time._3Start1250, time._3Finish, link.geografya, 4, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getPhizika(), week.getDates(), time._3Start1220, time._3Finish1400, link.phizika, 3, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getZarubizhnaLiteratura(), week.getDates(), time._2Start1050, time._2Finish, link.zarubizhnaliteratura, 4, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getHealthy(), week.getDates(), time._4Start1420, time._4Finish1600, link.healthy, 4, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getHealthy(), week.getDates(), time._2Start1050, time._2Finish, link.healthy, 5, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getTechnology(), week.getDates(), time._4Start1420, time._4Finish1600, link.technology, 3, 0, 0));
+
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrLit(), week.getDates(), time._1Start830, time._1Finish1010, link.ukrlit, 4, 0, 0));
+
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getWorldHistory(), week.getDates(), time._2Start1020, time._2Finish1200, link.worldHistory, 4, 0, 0));
+
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getRisovanie(), week.getDates(), time._3Start1220, time._3Finish1400, link.risovanie, 4, 0, 0));
+
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getInformatika(), week.getDates(), time._1Start830, time._1Finish1010, link.informatika, 5, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getInformatika2(), week.getDates(), time._4Start1420, time._4Finish1600, link.informatika, 5, 0, 0));
+
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMusic(), week.getDates(), time._2Start1020, time._2Finish1200, link.music, 5, 0, 0));
+
                     break;
                 case BLUE:
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getPriroda(), week.getDates(), time._1Start900, time._1Finish, link.priroda, 1, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getAlgebra(), week.getDates(), time._1Start830, time._1Finish1010, link.algebra, 1, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getAlgebra(), week.getDates(), time._4Start1420, time._4Finish1600, link.algebra, 2, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMatematika(), week.getDates(), time._2Start1100, time._2Finish, link.matematika, 1, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMatematika(), week.getDates(), time._1Start915, time._1Finish, link.matematika, 2, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMatematika(), week.getDates(), time._2Start1100, time._2Finish, link.matematika, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getGeografya(), week.getDates(), time._2Start1020, time._2Finish1200, link.geografya, 1, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._3Start1250, time._3Finish, link.ukrmova, 1, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._2Start1050, time._2Finish, link.ukrmova, 2, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getZarubizhnaLiteratura(), week.getDates(), time._3Start1220, time._3Finish1400, link.zarubizhnaliteratura, 1, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._3Start1250, time._3Finish, link.english, 2, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish2(), week.getDates(), time._1900, time._2030, link.english, 5, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._4Start1420, time._4Finish1600, link.english, 1, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._4Start1420, time._4Finish1600, link.english, 4, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getHealthy(), week.getDates(), time._4Start1450, time._4Finish, link.healthy, 2, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getBiologia(), week.getDates(), time._3Start1220, time._3Finish1400, link.biologia, 2, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getFizra(), week.getDates(), time._1Start900, time._1Finish945, link.fizra, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrainHistory(), week.getDates(), time._1Start830, time._1Finish1010, link.ukrainHistory, 2, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._1Start830, time._1Finish1010, link.ukrmova, 3, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getHistory(), week.getDates(), time._1Start950, time._1Finish, link.history, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getFizra(), week.getDates(), time._2Start1020, time._2Finish1200, link.fizra, 2, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getFizra(), week.getDates(), time._2Start1020, time._2Finish1200, link.fizra, 4, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrLit(), week.getDates(), time._3Start1250, time._3Finish, link.ukrlit, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getGeometry(), week.getDates(), time._2Start1020, time._2Finish1200, link.geometria, 3, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getTechnology(), week.getDates(), time._4Start1450, time._4Finish, link.technology, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getPhizika(), week.getDates(), time._3Start1220, time._3Finish1400, link.phizika, 3, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMusic(), week.getDates(), time._1Start900, time._1Finish, link.music, 4, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrLit(), week.getDates(), time._1Start830, time._1Finish1010, link.ukrlit, 4, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getGeografya(), week.getDates(), time._3Start1250, time._3Finish, link.geografya, 4, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getXimia(), week.getDates(), time._3Start1220, time._3Finish1400, link.ximia, 4, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getZarubizhnaLiteratura(), week.getDates(), time._2Start1050, time._2Finish, link.zarubizhnaliteratura, 4, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getInformatika(), week.getDates(), time._1Start830, time._1Finish1010, link.informatika, 5, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getInformatika2(), week.getDates(), time._4Start1420, time._4Finish1600, link.informatika, 5, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMystectvo(), week.getDates(), time._1Start900, time._1Finish, link.mystectvo, 5, 0, 0));
-
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getInformatika(), week.getDates(), time._2Start1100, time._2Finish, link.informatika, 5, 0, 0));
                     break;
                 case RED:
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getPriroda(), week.getDates(), time._1Start900, time._1Finish, link.priroda, 1, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getAlgebra(), week.getDates(), time._1Start830, time._1Finish1010, link.algebra, 1, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMatematika(), week.getDates(), time._2Start1100, time._2Finish, link.matematika, 1, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMatematika(), week.getDates(), time._2Start1100, time._2Finish, link.matematika, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getGeografya(), week.getDates(), time._2Start1020, time._2Finish1200, link.geografya, 1, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._3Start1250, time._3Finish, link.ukrmova, 1, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._2Start1050, time._2Finish, link.ukrmova, 2, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getZarubizhnaLiteratura(), week.getDates(), time._3Start1220, time._3Finish1400, link.zarubizhnaliteratura, 1, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._4Start1450, time._4Finish, link.english, 1, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._3Start1250, time._3Finish, link.english, 2, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish2(), week.getDates(), time._1900, time._2030, link.english, 5, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getEnglish(), week.getDates(), time._3Start1220, time._3Finish1400, link.english, 2, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getFizra(), week.getDates(), time._1Start900, time._1Finish, link.fizra, 2, 0, 0));
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getFizra(), week.getDates(), time._1Start900, time._1Finish945, link.fizra, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getBiologia(), week.getDates(), time._4Start1420, time._4Finish1600, link.biologia, 1, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getHistory(), week.getDates(), time._1Start950, time._1Finish, link.history, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._1Start830, time._1Finish1010, link.ukrmova, 2, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrmova(), week.getDates(), time._1Start830, time._1Finish1010, link.ukrmova, 3, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrLit(), week.getDates(), time._3Start1250, time._3Finish, link.ukrlit, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getFizra(), week.getDates(), time._2Start1020, time._2Finish1200, link.fizra, 2, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getTechnology(), week.getDates(), time._4Start1450, time._4Finish, link.technology, 3, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getGeometry(), week.getDates(), time._2Start1020, time._2Finish1200, link.geometria, 3, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getGeografya(), week.getDates(), time._3Start1250, time._3Finish, link.geografya, 4, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getPhizika(), week.getDates(), time._3Start1220, time._3Finish1400, link.phizika, 3, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getZarubizhnaLiteratura(), week.getDates(), time._2Start1050, time._2Finish, link.zarubizhnaliteratura, 4, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getHealthy(), week.getDates(), time._4Start1420, time._4Finish1600, link.healthy, 2, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getHealthy(), week.getDates(), time._1Start900, time._1Finish, link.healthy, 5, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getTechnology(), week.getDates(), time._4Start1420, time._4Finish1600, link.technology, 3, 0, 0));
 
-                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getInformatika(), week.getDates(), time._2Start1100, time._2Finish, link.informatika, 5, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getUkrLit(), week.getDates(), time._1Start830, time._1Finish1010, link.ukrlit, 4, 0, 0));
+
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getWorldHistory(), week.getDates(), time._2Start1020, time._2Finish1200, link.worldHistory, 4, 0, 0));
+
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getRisovanie(), week.getDates(), time._3Start1220, time._3Finish1400, link.risovanie, 4, 0, 0));
+
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getInformatika(), week.getDates(), time._1Start830, time._1Finish1010, link.informatika, 5, 0, 0));
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getInformatika2(), week.getDates(), time._4Start1420, time._4Finish1600, link.informatika, 5, 0, 0));
+
+                    scheduleLessonsList.add(HelpClass.oneTime3Days(title.getMusic(), week.getDates(), time._2Start1020, time._2Finish1200, link.music, 5, 0, 0));
+
                     break;
             }
         }
